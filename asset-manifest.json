@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/gouravjain22/words/static/css/main.073c9b0a.css",
+    "main.js": "/gouravjain22/words/static/js/main.b80a63ff.js",
+    "static/js/787.72486cdd.chunk.js": "/gouravjain22/words/static/js/787.72486cdd.chunk.js",
+    "index.html": "/gouravjain22/words/index.html",
+    "main.073c9b0a.css.map": "/gouravjain22/words/static/css/main.073c9b0a.css.map",
+    "main.b80a63ff.js.map": "/gouravjain22/words/static/js/main.b80a63ff.js.map",
+    "787.72486cdd.chunk.js.map": "/gouravjain22/words/static/js/787.72486cdd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.b80a63ff.js"
+  ]
+}
