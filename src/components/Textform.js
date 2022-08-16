@@ -63,10 +63,10 @@ const FirstLetterCapital =() =>{
          
          <textarea className="form-control" value={text} onChange={handleOnChange} id="myBox" rows="8"></textarea>
          </div>
-        <button className="btn btn-primary mx-2" onClick={handleUpClick}>convert to uppercase</button>
-        <button className="btn btn-primary mx-2" onClick={handlelowClick}>convert to lowercase</button>
-        <button type="button" className="btn btn-primary mx-2" onClick={removeSpace}>remove space</button>
-        <button type="button" className="btn btn-primary mx-2" onClick={FirstLetterCapital}>FirstLetterCapital</button>
+        <button className="btn btn-primary mx-2 my-2" onClick={handleUpClick}>convert to uppercase</button>
+        <button className="btn btn-primary mx-2 my-2" onClick={handlelowClick}>convert to lowercase</button>
+        <button type="button" className="btn btn-primary mx-2 my-2" onClick={removeSpace}>remove space</button>
+        <button type="button" className="btn btn-primary mx-2 my-2" onClick={FirstLetterCapital}>FirstLetterCapital</button>
                
     </div>
     <div className='container my-3' >
