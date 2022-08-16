@@ -4,8 +4,9 @@ import Textform from './components/Textform';
 
 function App() {
   return (
-    <div >
-      <h1>Hello Guys</h1>
+    <div className='container'>
+      <h1>Hello Guys! Welcome to My Page </h1>
+      <br></br>
       <Textform></Textform>
     </div>
   );
