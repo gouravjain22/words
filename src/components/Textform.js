@@ -33,8 +33,28 @@ const FirstLetterCapital =() =>{
   setText(newText);
 }
   let w =text.split(" ").length;
-  let s = w*2.5;
+  let s = w*0.4;
   let min = s/60;
+  let s1 = s%60;
+  // let min1 =parseFloat(min).toFixed(2);
+
+
+  const Minutes =(min)=>{
+   
+    let min1 =parseFloat(min).toFixed(2);
+    return min1;
+    
+  }
+  const Seconds =(s1)=>{
+   
+    let sec =parseFloat(s1).toFixed(2);
+    return sec;
+    
+  }
+ 
+  
+
+
   return (
     <>
     <div className='container'>
@@ -52,7 +72,10 @@ const FirstLetterCapital =() =>{
     <div className='container my-3' >
         <h1>Your summary</h1>
         <p> {text.split(" ").length} words  and  {text.length} characters </p>
-        <p> You can read {text.split(" ").length} words in {min} Minutes {s} Seconds </p>
+        <p> You can read {text.split(" ").length} words in {Minutes(min)} Minutes and {Seconds(s1)} Seconds </p>
+       {/* <p> You can read {text.split(" ").length} words in {min1} Minutes and {s} Seconds </p> */}
+       <h6>Preview</h6>
+       <p>{text}</p>
     </div>
     </>
   )
